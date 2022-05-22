@@ -38,6 +38,6 @@
    + Nâng cấp độ khó của game : Tạo thêm nhiều level khó hơn để người chơi không nhàm chán
    + Nâng cấp các chức năng khác của game : Tạo ra nút bật, tắt, điều chỉnh âm thanh; Tạm dừng game; Nghe các bài hát trong lúc chơi;...
   - Kết luận và bài học rút ra :
-   + Việc tự học rất quan trọng, phải luôn học hỏi, tìm tòi những kiến thức mới từ nhiều nguồn khác nhau
-   + Chăm chỉ là chìa khóa để tiến bộ 
-   + Code của bạn luôn có hướng để phát triển thêm
+    + Việc tự học rất quan trọng, phải luôn học hỏi, tìm tòi những kiến thức mới từ nhiều nguồn khác nhau
+    + Chăm chỉ là chìa khóa để tiến bộ 
+    + Code của bạn luôn có hướng để phát triển thêm
