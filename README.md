@@ -40,4 +40,5 @@
   - Kết luận và bài học rút ra :
     + Việc tự học rất quan trọng, phải luôn học hỏi, tìm tòi những kiến thức mới từ nhiều nguồn khác nhau
     + Chăm chỉ là chìa khóa để tiến bộ 
+    + Sử dụng kỹ thuật hướng đối tượng sẽ giúp việc quản lí trở nên dễ dàng hơn 
     + Code của bạn luôn có hướng để phát triển thêm
