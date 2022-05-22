@@ -22,4 +22,22 @@
       ![image](https://user-images.githubusercontent.com/100477812/169705595-8f93d994-74d7-42a2-ae0d-cb92264501f7.png)
 
 # Luật chơi và các tính năng
+- Game Minesweeper gồm 3 mức độ chơi :
+    + Easy : 9x9 và 10 ô mìn
+    + Medium :16x16 và 40 ô mìn
+    + Hard : 20x20 và 80 ô mìn
+ - Các quả mìn được rải ngẫu nhiên sau mỗi lần chơi
+ - Sân mìn gồm : Các chữ số hiển thị số mìn xung quanh ô đó, các ô trống không có mìn, và các ô có mìn
+ - Click chuột trái để mở 1 ô mìn, click chuột phải để đặt cờ. Nếu bạn click chuột trái vào ô có mìn, bạn thua. Nếu bạn dò được tất cả vị trí mìn, bạn thắng
+ - Sau khi bạn thắng hoặc thua, nhấn "s" để chơi lại, nhấn ESC để quay trở lại Menu
+ - Các âm thanh sống động tùy theo các thao tác của người chơi
+ - Bộ đếm thời gian chơi theo đơn vị giây
 # Kết luận, hướng phát triển game
+ - Hướng phát triển game :
+   + Nâng cấp giao diện cho đẹp mắt hơn
+   + Nâng cấp độ khó của game : Tạo thêm nhiều level khó hơn để người chơi không nhàm chán
+   + Nâng cấp các chức năng khác của game : Tạo ra nút bật, tắt, điều chỉnh âm thanh; Tạm dừng game; Nghe các bài hát trong lúc chơi;...
+  - Kết luận và bài học rút ra :
+   + Việc tự học rất quan trọng, phải luôn học hỏi, tìm tòi những kiến thức mới từ nhiều nguồn khác nhau
+   + Chăm chỉ là chìa khóa để tiến bộ 
+   + Code của bạn luôn có hướng để phát triển thêm
