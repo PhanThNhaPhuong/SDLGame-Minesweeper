@@ -33,8 +33,8 @@
  - Sau khi bạn thắng hoặc thua, nhấn "s" để chơi lại, nhấn ESC để quay trở lại Menu
  # Các chức năng đã cài đặt
  - Màn hình Menu có 2 lựa chọn cho bạn :
-        - New Game : Bạn bắt đầu một ván chơi mới
-        - Exit : Bạn thoát khỏi game
+      * New Game : Bạn bắt đầu một ván chơi mới
+      * Exit : Bạn thoát khỏi game
     + Nếu bạn di chuột vào vị trí New Game hoặc Exit trên màn hình, chúng sẽ chuyển từ màu
     + Nếu bạn  
   - Sau khi bạn chọn New Game, màn hình các mức độ chơi sẽ hiện lên cho bạn lựa chọn :
