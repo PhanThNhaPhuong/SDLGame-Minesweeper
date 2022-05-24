@@ -32,26 +32,50 @@
  - Click chuột trái để mở 1 ô, click chuột phải để đặt cờ hoặc xóa cờ. Nếu bạn click chuột trái vào ô chứa mìn, bạn thua. Nếu bạn dò được tất cả các vị trí mìn và mở được tất cả các ô khác, bạn thắng
  - Sau khi bạn thắng hoặc thua, nhấn "s" để chơi lại, nhấn ESC để quay trở lại Menu
  # Các chức năng đã cài đặt
- - Màn hình Menu có 2 lựa chọn cho bạn :
-    1. New Game : Bạn bắt đầu một ván chơi mới
-    2. Exit : Bạn thoát khỏi game
-    + Nếu bạn di chuột vào vị trí New Game hoặc Exit trên màn hình, chúng sẽ chuyển từ màu
-    + Nếu bạn click vào một trong 2 lựa chọn, sẽ có âm thanh click menu
-  - Sau khi bạn chọn New Game, màn hình các mức độ chơi sẽ hiện lên cho bạn lựa chọn :
-    - Easy : 9x9 và 10 ô mìn
-    - Medium :16x16 và 40 ô mìn
-    - Hard : 20x20 và 80 ô mìn
-    
-  
+ - Menu hiển thị lựa chọn New Game hoặc Exit
+ - Show Game Mode hiển thị 3 lựa chọn mức độ chơi
+ - Sân mìn để người chơi tương tác
+ - Các thao tác với chuột : 
+   + Click chuột trái để mở một ô
+   + click chuột phải để đặt cờ hoặc xóa cờ ở một ô.
+ - Các thao tác với bàn phím : 
+   + Nhấn ESC để back lại Menu
+   + Sau khi bạn thua hoặc thắng, nhấn "s" để chơi lại 
  - Các âm thanh sống động tùy theo các thao tác của người chơi
+   + Âm thanh CLick menu 
+   + Âm thanh mở một ô
+   + Âm thanh đặt cờ 
+   + Âm thanh xóa cờ
+   + Âm thanh bom nổ khi bạn thua
+   + Nhạc nền khi bạn thắng
  - Bộ đếm thời gian chơi theo đơn vị giây
+   + Đếm thời gian trong lúc chơi
+   + Hiển thị thời gian chơi sau khi 1 ván game kết thúc (người chơi thắng hoặc thua)
+# Các kĩ thuật lập trình đã sử dụng
+ - thư viện SDL2, SDL2_image, SDL2_ttf, SDL2_mixer:
+      + Xử lí các hình ảnh, icon
+      + Xử lí thao tác từ chuột và bàn phím
+      + Kĩ thuật render chữ, đổi màu chữ
+      + Xử lí âm thanh
+      + Tạo các phông chữ, render chữ
+ - Các kĩ thuật lập trình
+    + Kỹ thuật lập trình hướng đối tượng : Trò chơi được chia thành nhiều đối tượng khác nhau để dễ dàng quản lý và sử dụng
+    + Kĩ thuật chia tách file : Các Class được khai báo trong các file .h và việc định nghĩa chi tiết các phương thức của class được đưa vào trong các file .cpp
+    + Con trỏ : Lưu các lựa chọn trong Menu, Game Mode
+    + Mảng : lưu các option trên menu và trên game mode
+    + Vector : lưu trữ và tạo các sân mìn
+    + Vòng lặp : While, for trong logic game,...
+    + Enum : Lưu các biến trò chơi như BLANK, COVER,... 
+  - Kỹ thuật clean code.
 # Kết luận, hướng phát triển game
  - Hướng phát triển game :
-   + Nâng cấp giao diện cho đẹp mắt hơn
+   + Cải tiến về đồ họa và âm thanh của game cho sinh động và hấp dẫn hơn 
    + Nâng cấp độ khó của game : Tạo thêm nhiều level khó hơn để người chơi không nhàm chán
-   + Nâng cấp các chức năng khác của game : Tạo ra nút bật, tắt, điều chỉnh âm thanh; Tạm dừng game; Nghe các bài hát trong lúc chơi;...
+   + Nâng cấp các chức năng khác của game : Tạo ra nút bật, tắt, điều chỉnh âm thanh; Tạm dừng game; Nghe và chuyển các bài hát trong lúc chơi;...
+   + Tạo chế độ chơi cho phép người chơi chọn kích thước sân mìn, số ô mìn mà mình mong muốn (tất nhiên phải trong một giới hạn cho phép nào đấy)
   - Kết luận và bài học rút ra :
     + Việc tự học rất quan trọng, phải luôn học hỏi, tìm tòi những kiến thức mới từ nhiều nguồn khác nhau
     + Chăm chỉ là chìa khóa để tiến bộ 
+    + Trước khi viết chương trình, phải xây dựng được các bước, các đối tượng trong chương trình để việc quản lí và viết chương trình dễ dàng hơn
     + Sử dụng kỹ thuật hướng đối tượng sẽ giúp việc quản lí trở nên dễ dàng hơn 
     + Code của bạn luôn có hướng để phát triển thêm
