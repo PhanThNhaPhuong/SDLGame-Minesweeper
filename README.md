@@ -21,15 +21,28 @@
  
       ![image](https://user-images.githubusercontent.com/100477812/169705595-8f93d994-74d7-42a2-ae0d-cb92264501f7.png)
 
-# Luật chơi và các tính năng
+# Mô tả chung về trò chơi 
 - Game Minesweeper gồm 3 mức độ chơi :
     + Easy : 9x9 và 10 ô mìn
     + Medium :16x16 và 40 ô mìn
     + Hard : 20x20 và 80 ô mìn
- - Các quả mìn được rải ngẫu nhiên sau mỗi lần chơi
- - Sân mìn gồm : Các chữ số hiển thị số mìn xung quanh ô đó, các ô trống không có mìn, và các ô có mìn
- - Click chuột trái để mở 1 ô mìn, click chuột phải để đặt cờ. Nếu bạn click chuột trái vào ô có mìn, bạn thua. Nếu bạn dò được tất cả vị trí mìn, bạn thắng
+ - Các ô mìn được rải ngẫu nhiên sau mỗi lần chơi
+ - Sân mìn gồm : Các chữ số hiển thị số mìn xung quanh ô đó, các ô trống không chứa mìn, và các ô mìn
+ - Nhiệm vụ của người chơi là đi tìm vị trí của tất cả các ô mìn và đặt cờ vào đó, đồng thời mở được tất cả các ô khác không chứa mìn
+ - Click chuột trái để mở 1 ô, click chuột phải để đặt cờ hoặc xóa cờ. Nếu bạn click chuột trái vào ô chứa mìn, bạn thua. Nếu bạn dò được tất cả các vị trí mìn và mở được tất cả các ô khác, bạn thắng
  - Sau khi bạn thắng hoặc thua, nhấn "s" để chơi lại, nhấn ESC để quay trở lại Menu
+ # Các chức năng đã cài đặt
+ - Màn hình Menu có 2 lựa chọn cho bạn :
+        - New Game : Bạn bắt đầu một ván chơi mới
+        - Exit : Bạn thoát khỏi game
+    + Nếu bạn di chuột vào vị trí New Game hoặc Exit trên màn hình, chúng sẽ chuyển từ màu
+    + Nếu bạn  
+  - Sau khi bạn chọn New Game, màn hình các mức độ chơi sẽ hiện lên cho bạn lựa chọn :
+    - Easy : 9x9 và 10 ô mìn
+    - Medium :16x16 và 40 ô mìn
+    - Hard : 20x20 và 80 ô mìn
+    
+  
  - Các âm thanh sống động tùy theo các thao tác của người chơi
  - Bộ đếm thời gian chơi theo đơn vị giây
 # Kết luận, hướng phát triển game
