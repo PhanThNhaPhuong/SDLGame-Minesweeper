@@ -5,8 +5,14 @@
  - Cài đặt Visual Studio Code version 1.66.2
  
      ![image](https://user-images.githubusercontent.com/100477812/169704602-f3089e14-abaf-4eb0-a379-b8e62099f053.png)
-     
+  
+ - Tải và cài đặt SDL2 tại link https://www.libsdl.org/download-2.0.php
+ - Tải và cài đặt SDL2_image tại link https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.5-mingw.tar.gz
+ - Tải và cài đặt SDL2_ttf tại link https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.18-mingw.tar.gz
+ - Tải và cài đặt SDL2_mixer tại link https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.4-mingw.tar.gz
+ - Hướng dẫn cụ thể xem tại https://pie-cheque-188.notion.site/C-i-t-h-a-C-Windows-ef0a99a8dcae4dae86a39dc1cbc35980. Các thư viện khác cài đặt tương tự
  - Tải game ở https://github.com/PhanThNhaPhuong/SDLGame-Minesweeper, nhấn vào mục Code, chọn Download Zip. Sau khi tải về và giải nén, mở VSCode tới file vừa giải nén. Hoặc Clone repo về máy tính cá nhân bằng lệnh git clone https://github.com/PhanThNhaPhuong/SDLGame-Minesweeper.git
+
      ![image](https://user-images.githubusercontent.com/100477812/169705008-e2da7e67-4ee0-4348-81da-3d9b0cfa80b4.png)
      
  - Mở Makefile và thay bằng dòng lệnh: g++ -Iinclude -Iinclude/sdl -Iinclude/headers -Llib -o Main src/*.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
