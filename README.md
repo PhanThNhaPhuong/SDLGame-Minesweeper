@@ -51,6 +51,7 @@
  - Bộ đếm thời gian chơi theo đơn vị giây
    + Đếm thời gian trong lúc chơi
    + Hiển thị thời gian chơi sau khi 1 ván game kết thúc (người chơi thắng hoặc thua)
+Video mô tả : https://youtu.be/g_3Hd3VJbeM
 # Các kĩ thuật lập trình đã sử dụng
  - thư viện SDL2, SDL2_image, SDL2_ttf, SDL2_mixer:
       + Xử lí các hình ảnh, icon
