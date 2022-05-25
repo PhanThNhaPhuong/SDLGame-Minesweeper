@@ -6,11 +6,9 @@
  
      ![image](https://user-images.githubusercontent.com/100477812/169704602-f3089e14-abaf-4eb0-a379-b8e62099f053.png)
      
- - Tải game ở https://github.com/PhanThNhaPhuong/SDLGame-Minesweeper, nhấn vào mục Code, chọn Download Zip
- 
+ - Tải game ở https://github.com/PhanThNhaPhuong/SDLGame-Minesweeper, nhấn vào mục Code, chọn Download Zip. Sau khi tải về và giải nén, mở VSCode tới file vừa giải nén. Hoặc Clone repo về máy tính cá nhân bằng lệnh git clone https://github.com/PhanThNhaPhuong/SDLGame-Minesweeper.git
      ![image](https://user-images.githubusercontent.com/100477812/169705008-e2da7e67-4ee0-4348-81da-3d9b0cfa80b4.png)
      
- - Sau khi tải về và giải nén, mở VSCode tới file vừa giải nén.
  - Mở Makefile và thay bằng dòng lệnh: g++ -Iinclude -Iinclude/sdl -Iinclude/headers -Llib -o Main src/*.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
  - Mở Terminal, chọn Command Prompt 
  
